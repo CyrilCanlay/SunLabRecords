@@ -1,0 +1,228 @@
+/*Font importe*/
+
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('ressources/fonts/montserrat_light.eot'); /* IE9 Compat Modes */
+    src: url('ressources/fonts/montserrat_light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('ressources/fonts/montserrat_light.woff') format('woff'), /* Modern Browsers */
+        url('ressources/fonts/montserrat_light.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('ressources/fonts/montserrat_light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/*Font importe*/
+
+#recemment{
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(148deg, rgba(0,0,0,1) 0%, rgba(32,128,165,1) 50%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(148deg, rgba(0,0,0,1) 0%, rgba(32,128,165,1) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(148deg, rgba(0,0,0,1) 0%, rgba(32,128,165,1) 50%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1); 
+}
+
+.parallax {
+    background-image: url("ressources/places/Choix.jpg");
+
+    width: 100%;
+    /*	height: -webkit-fill-available;
+    */	min-height: 100%;
+
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    box-shadow: 0 3000px rgba(32, 128, 165, 0.5) inset;
+}
+
+/* W3C Text On Image */
+
+/* Container holding the image and the text */
+.w3c-container {
+    position: relative;
+}
+
+/* Bottom right text */
+.w3c-text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-radius: 25px;
+} 
+
+/* TEST */
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.9rem;
+}
+
+p {
+    text-align: left;
+}
+
+.center_card {
+    text-align: center;
+}
+
+.who_are_we {
+    background-color: #eef4f2;
+    background-position: 25% 75%;
+}
+
+.our_lab {
+    background-color: #2f6dff;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+    font-family:"Montserrat Light";
+    text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.white {
+    color: white;
+}
+
+
+.menu_link {
+    padding: 1%;
+    color: white;
+    text-transform: capitalize;
+    font-size: 120%;
+    text-shadow: 2px 2px #000000;
+}
+
+.menu_link:hover {
+    color: white;
+    text-decoration: none;
+    border-color: black;
+}
+
+.centered {
+    text-align: center;
+}
+
+#home {
+    /*background-color: #2f6dff;*/
+}
+
+#services,
+#qui_sommes_nous,
+#partenaires {
+    background-color: white;
+}
+
+.section {
+    padding: 5%;
+}
+
+.blue_text {
+    color: #2c6dff;
+}
+
+.white_blue_background {
+    background-color: #85a9ff;
+}
+
+.white_background {
+    background-color: white;
+}
+
+.black_background {
+    background-color: black;
+}
+
+.grey_background {
+    background-color: #f3f4f6;
+}
+
+.gradiant_background {
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(47, 109, 255, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(41%, rgba(117, 189, 209, 1)), color-stop(100%, rgba(47, 109, 255, 1)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(47, 109, 255, 1) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(47, 109, 255, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(47, 109, 255, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(117, 189, 209, 1) 41%, rgba(47, 109, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#2f6dff', GradientType=1);
+}
+
+.grandiant_background_white {
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
+}
+
+.texte_avis {
+    font-style: italic;
+}
+
+.maximum_size {
+    max-width: 150px;
+}
+
+.gros_pave  {
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 0.9rem;
+    line-height:1.2rem;
+}
+
+.small_image {
+    width: 50%;
+}
+
+.social_icon {
+    padding-left: 3%;
+    padding-right: 3%;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .social_icon {
+        font-size: 200%;
+    }
+
+
+    h2 {
+        font-size: 1.0rem;
+    }
+    .maximum_size{
+        max-width: 90px;
+    }
+
+    h3 {
+        font-size: 1.50rem;
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 1.0rem;
+    }
+
+    #recemment {
+        display: none;
+    }
+}
